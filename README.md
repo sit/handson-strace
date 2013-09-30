@@ -19,9 +19,11 @@ How to understand their output?
 
 For each of the following, compare the outputs of strace and ltrace.
 
-    ls
+    ls -l
     ls filedoesnotexist
-    curl -I http://www.hadapt.com/
+
+    python -m SimpleHTTPServer
+        curl -I http://localhost:8000/
 
 For example:
 
@@ -33,6 +35,7 @@ For example:
 
 Play with the following strace/ltrace flags:
 
+    -p
     -o
     -f
     -t -tt -ttt
