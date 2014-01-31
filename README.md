@@ -135,6 +135,7 @@ What does `./ex2` do?
 These commands allow you to get a sense of what any process on the system is doing.
 Some additional reading:
 
+* [The Magic of `strace`](http://chadfowler.com/blog/2014/01/26/the-magic-of-strace/) walks through some sample `strace` usage in more detail.
 * [Self Service Linux](http://www.informit.com/store/self-service-linux-mastering-the-art-of-problem-determination-9780131477513), by Mark Wilding and Dan Behman. (Free [PDF download](http://ptgmedia.pearsoncmg.com/images/013147751X/downloads/013147751X_book.pdf), 4.4MB): This is a must read book.
 * A quick blog post on [How does strace work?](http://blog.nelhage.com/2010/08/write-yourself-an-strace-in-70-lines-of-code/)
 * The insides of a Unix kernel: [The Design and Implementation of the 4.4BSD Operating System](http://www.freebsd.org/doc/en/books/design-44bsd/). A classic.
